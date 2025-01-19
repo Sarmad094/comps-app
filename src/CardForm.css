@@ -1,0 +1,64 @@
+/* CardForm.css */
+.card-form-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f0f8ff;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+   
+  .card-form-box {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+  }
+   
+  .card-form-header {
+    color: #003366;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+   
+  .card-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+   
+  .form-group {
+    margin-bottom: 15px;
+  }
+   
+  .form-label {
+    color: #003366;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+  }
+   
+  .form-input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+  }
+   
+  .form-submit-button {
+    background-color: #003366;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+   
+  .form-submit-button:hover {
+    background-color: #002244;
+  }

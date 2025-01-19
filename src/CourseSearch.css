@@ -1,0 +1,44 @@
+.course-search {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f8ff; /* Lys blå bakgrunn */
+    color: #002366; /* Mørk blå tekst */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 50px auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+ 
+  h1 {
+    margin-bottom: 20px;
+  }
+ 
+  .search-input {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #002366;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 20px;
+  }
+ 
+  .search-input:focus {
+    border-color: #0047ab; /* Litt lysere blå */
+    box-shadow: 0 0 5px #0047ab;
+  }
+ 
+  .course-list {
+    list-style: none;
+    padding: 0;
+  }
+ 
+  .course-item {
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #ffffff; /* Hvit bakgrunn for kurs */
+    border: 1px solid #002366;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }

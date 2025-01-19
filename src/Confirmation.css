@@ -1,0 +1,25 @@
+/* Confirmation.css */
+.confirmation-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.confirmation-container h1 {
+    color: #003366;
+}
+
+.confirmation-container p {
+    font-size: 1.2rem;
+}
+
+.confirmation-container .button {
+    background-color: #003366;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.confirmation-container .button:hover {
+    background-color: #003366;
+}
