@@ -28,7 +28,7 @@ function App() {
       <header>
         <h1></h1>
       </header>
-      <CourseSearch/>
+      <AnnouncementSlide/>
     </div>
   );
 }
